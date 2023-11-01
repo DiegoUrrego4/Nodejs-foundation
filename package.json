@@ -13,6 +13,12 @@
   "author": "Diego Urrego",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "prettier": "3.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "get-age": "^1.0.1",
+    "uuid": "^9.0.1"
   }
 }
