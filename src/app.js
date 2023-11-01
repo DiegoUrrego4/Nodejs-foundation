@@ -2,14 +2,19 @@
 // require('./js-foundation/02-destructuring');
 // const { getUserById } = require('./js-foundation/03-callbacks');
 // const { getUserById } = require('./js-foundation/04-arrow');
-const { getUUID, getAge } = require("./plugins");
+// const { getUUID, getAge } = require('./plugins');
 
-const getPokemonById = require("./js-foundation/06-promises");
+// const getPokemonById = require('./js-foundation/06-promises');
+const { buildLogger } = require('./plugins');
 
-const info = getPokemonById(4)
-  .then((pokemon) => console.log({ pokemon }))
-  .catch((err) => console.log(err))
-  .finally(() => console.log("Finalmente"));
+const logger = buildLogger('app.js');
+logger.log('Hola mundo');
+logger.error('Esto es algo malo');
+
+// getPokemonById(4)
+//   .then(pokemon => console.log({ pokemon }))
+//   .catch(err => console.error(err))
+//   .finally(() => console.log('Finalmente'));
 
 // token de acceso
 
