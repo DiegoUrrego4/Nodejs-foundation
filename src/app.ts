@@ -5,12 +5,12 @@
 // const { getUUID, getAge } = require('./plugins');
 // const getPokemonById = require('./js-foundation/06-promises');
 // const { buildLogger } = require('./plugins');
-import { getPokemonById } from './js-foundation/06-promises';
-import {buildLogger} from './plugins/logger.plugin'
-const logger = buildLogger('app.ts')
+// import { getPokemonById } from './js-foundation/06-promises';
+// import {buildLogger} from './plugins/logger.plugin'
+// const logger = buildLogger('app.ts')
 
-logger.log('Hola mundo');
-logger.error('Esto es algo malo');
+// logger.log('Hola mundo');
+// logger.error('Esto es algo malo');
 
 // ! Referencia a la función factory y uso
 // const { buildMakePerson } = require('./js-foundation/05-factory');
